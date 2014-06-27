@@ -25,11 +25,16 @@ obse.addObserver(String ObserverName, INSANotificationListener);
 
 3.Make Listener
 
-```Javq
-new INSANotificationListener()
+```Java
+new INSANotificationListener{
+  public recivedata(Object Data){
+  }
+}
 //or
 
 implements INSANotificaionListenr {
 //...
-public 
+  public recivedata(Object Data){
+  }
+}
 ```
