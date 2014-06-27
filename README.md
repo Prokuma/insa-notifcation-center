@@ -47,7 +47,7 @@ class test implements INSANotificaionListenr {
 3-1.Send Data
 
 ```Java
-noti.sendInfo(String ObserverName, Object Data);
+noti.setInfo(String ObserverName, Object Data);
 ```
 
 4.Remove Observer, Remove Info
