@@ -58,3 +58,6 @@ noti.removeInfo(String ObserverName);
 //Remove Observer
 noti.removeObserver(String ObserverName);
 ```
+
+If notificationcenter use to different object,
+you send INSANotificationCenter Object using by initial argument
