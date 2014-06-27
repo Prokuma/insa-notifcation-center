@@ -28,7 +28,7 @@ noti.setObserver(String ObserverName, INSANotificationListener listener);
 3.Set Listener
 
 ```Java
-new INSANotificationListener{
+new INSANotificationListener() {
   public getInfo(Object Data){
     //
   }
